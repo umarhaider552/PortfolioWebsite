@@ -15,9 +15,7 @@ function Home({ setPage }) {
       <p className="my-info">
         This site showcases my skills and projects.
       </p>
-      <button className="submit-btn" onClick={() => setPage('about')}>
-        Learn More About Me
-      </button>
+      <button className="submit-btn" onClick={() => setPage('about')}>Learn More About Me</button>
     </div>
   );
 }
