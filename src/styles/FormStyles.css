@@ -1,0 +1,193 @@
+/* 
+File Name: FormStyles.css
+Student Name: Umar Haider
+Student ID: 301350936
+Date: 18-Sep-2024
+*/
+
+/* Styling for ContactMe, AboutMe, Home, Main Page*/
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F3F1F5;
+  margin: 0;
+  padding: 0;
+}
+
+.my-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #5D3F6A;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.my-info {
+  text-align: center;
+  color: #4A4A4A;
+  margin-bottom: 20px;
+}
+
+.my-info h3 {
+  font-size: 1.6rem;
+  color: #7E6992;
+}
+
+.my-info p {
+  font-size: 1.2rem;
+  color: #5A5A5A;
+}
+
+.my-info a {
+  color: #7E69A1;
+  text-decoration: none;
+}
+
+.my-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #D1C4E9;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #F5F3F9;
+  color: #333;
+}
+
+.form-input:focus, .form-textarea:focus {
+  border-color: #AB90D5;
+  outline: none;
+}
+
+.form-textarea {
+  resize: none;
+  height: 150px;
+}
+
+.submit-btn {
+  background-color: #7E69A1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #5D3F6A;
+}
+
+/* Styling for Resume Link*/
+.resume-link {
+  color: #7E69A1;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.resume-link:hover {
+  color: #5D3F6A;
+  text-decoration: underline;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: #F5F3F9;
+  padding: 10px;
+}
+
+/* Styling for Logo*/
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+/* Styling for Navigation Bar*/
+.nav-btn {
+  background-color: #7E69A1;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #5D3F6A;
+}
+
+/* Styling for Projects Page*/
+.project-item {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  color: #5D3F6A;
+  font-size: 1.8rem;
+  margin: 10px 0;
+}
+
+.project-description {
+  color: #5A5A5A;
+  font-size: 1.2rem;
+}
+
+/* Styling for Services Page*/
+.services-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-item {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.service-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.service-description {
+  color: #5D3F6A;
+  font-size: 1.4rem;
+}
