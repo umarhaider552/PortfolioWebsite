@@ -1,5 +1,5 @@
 /* 
-File Name: FormStyles.css
+File Name: Main.js
 Student Name: Umar Haider
 Student ID: 301350936
 Date: 18-Sep-2024
